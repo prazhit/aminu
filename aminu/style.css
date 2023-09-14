@@ -1,0 +1,172 @@
+/*!
+Theme Name: Aminu
+Theme URI: http://aminu.life/
+Author: Orbitech
+Author URI: orbitechnepal.com.np
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: aminu
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+*/
+
+.cart-link,
+.filters__inner .filter-group__item,
+.filter-toggle__input-label,
+.attr-radio__label,
+.cart-item__qty-btn{
+    cursor: pointer;
+}
+.js-dynamic-cart{
+    width: 100%;
+}
+
+.aminu-spinner{
+    border-top-color: #000000 !important;
+    display: inline-block !important;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    content: "";
+    z-index: 2;
+    border-image: none;
+    -webkit-animation: hs-spin .5s infinite linear !important;
+    animation: hs-spin .5s infinite linear !important;
+}
+
+.site-blocker{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.2);
+    z-index: 2000;
+    display: grid;
+    place-items: center;
+}
+
+.cart-drawer-product .cart-item{
+    position: relative;
+}
+
+.cart-drawer-product .cart-item .item-blocker{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.2);
+    z-index: 5;
+    display: grid;
+    place-items: center;
+}
+
+@keyframes hs-spin{
+    0% {
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.section-announcement-bar .announcement-bar__middle{
+    min-height: 45px;
+}
+
+.ui-slider-horizontal .ui-slider-handle{
+    top: -10px;
+    cursor: pointer;
+}
+
+.filter-container .product-filter{
+    display: none;
+}
+
+.filter-container .product-filter.active{
+    display: block;
+}
+
+.upsell-product__item:not(:first-child),
+.cart-item:not(:first-child) {
+    border-top: 1px solid lightgrey;
+}
+
+.swiper-backface-hidden .swiper-slide,
+.product-form.sticky-content-container{
+    padding-top: 30px;
+}
+
+.product-sticky-form__image{
+    max-width: 75px !important;
+    object-fit: contain;
+}
+
+.product-rating-badge__text{
+    white-space: nowrap;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.cart-item__qty-btn{
+    width: 5rem;
+}
+.comment-form-rating .stars span{
+    display: flex;
+}
+.comment-form-rating .stars span a{
+    font-family: 'remixicon' !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    color: #fbcd0a;
+    font-size: 0;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.comment-form-rating .stars span a::before{
+    content: "\f18d";
+    font-size: 25px;
+}
+
+.comment-form-rating .stars span a:hover::before,
+.comment-form-rating .stars span a.s-active::before,
+.comment-form-rating .stars span a.hover::before{
+    content: "\f18c";
+    font-size: 25px;
+}
+
+.upsell-product__add .aminu-spinner{
+    width: 20px;
+    height: 20px;
+}
+
+.cart-drawer-popup .btn.add-to-cart .aminu-spinner{
+    width: 25px;
+    height: 25px;
+    margin-top: 11px;
+}
+
+button[disabled] {
+    pointer-events: none;
+}
+
+.cart-drawer-co__checkout-btn:hover{
+    color: white;
+    background-color: #d25a3c;
+}
