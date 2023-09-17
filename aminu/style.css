@@ -170,3 +170,7 @@ button[disabled] {
     color: white;
     background-color: #d25a3c;
 }
+
+.al-video-player {
+    position: relative;
+}
