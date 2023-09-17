@@ -163,7 +163,7 @@ function aminu_scripts()
 	wp_enqueue_script('FancyBox', 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js', false, null, true);
 	wp_enqueue_script('Plyr', 'https://cdn.plyr.io/3.7.8/plyr.js', false, null, true);
 	wp_enqueue_script('Swiper', 'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js', false, null, true);
-	wp_enqueue_script('global-script', get_template_directory_uri() . '/js/global.js', array('AOS', 'FancyBox', 'Swiper', 'Plyr'), '1.0', true);
+	wp_enqueue_script('global-script', get_template_directory_uri() . '/js/global.js', array('AOS', 'FancyBox', 'Swiper', 'Plyr', 'jquery', 'jquery-ui-slider'), '1.0', true);
 
 	wp_localize_script('custom-ajax-script', 'ajax_object', array(
 		'ajax_url' => admin_url('admin-ajax.php'),
