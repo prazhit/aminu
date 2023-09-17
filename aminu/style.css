@@ -90,9 +90,9 @@ Use it to make something cool, have fun, and share what you've learned.
     cursor: pointer;
 }
 
-.filter-container .product-filter{
+/* .filter-container .product-filter{
     display: none;
-}
+} */
 
 .filter-container .product-filter.active{
     display: block;

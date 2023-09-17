@@ -229,7 +229,7 @@
 
     if (filterToggle) {
       filterToggle.addEventListener("click", () => {
-        filterDrawer.classList.toggle("active");
+        filterDrawer.parentNode.classList.toggle("active");
       });
     }
 
@@ -241,9 +241,10 @@
 
     const closeFilterDrawer = () => {
       if (filterDrawer) {
-        filterDrawer.classList.remove("active");
+        filterDrawer.parentNode.classList.toggle("active");
       }
     };
+
     const mobileNavDrawer = document.querySelector(".mobile-nav-drawer");
     const tier1NavItem = document.querySelector(".nav__tier-1 .nav__item");
     const tier2NavItem = document.querySelector(".nav__tier-2 .nav_item");
