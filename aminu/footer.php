@@ -543,11 +543,9 @@
                       $first_variation_id = $available_attributes[0]['variation_id'];
                     }
                   ?>
-                    <div class="upsell-product__item" data-has-variant="<?php echo $has_variants ? $has_variants: 0 ; ?>">
+                    <div class="upsell-product__item" data-has-variant="<?php echo $has_variants ? $has_variants : 0; ?>">
                       <div class="upsell-product__img-wrapper">
-                        <a href="<?php echo get_permalink($upsell_product_id) ?>" class="hs-product-link-image"><img loading="lazy" href="<?php echo get_the_post_thumbnail_url($upsell_product_id); ?>" 
-                        src="<?php echo get_the_post_thumbnail_url($upsell_product_id) ? get_the_post_thumbnail_url($upsell_product_id) : wc_placeholder_img_src('full'); ?>" 
-                        alt="<?php echo get_the_title($upsell_product_id) ?>" width="100" height="90" /></a>
+                        <a href="<?php echo get_permalink($upsell_product_id) ?>" class="hs-product-link-image"><img loading="lazy" href="<?php echo get_the_post_thumbnail_url($upsell_product_id); ?>" src="<?php echo get_the_post_thumbnail_url($upsell_product_id) ? get_the_post_thumbnail_url($upsell_product_id) : wc_placeholder_img_src('full'); ?>" alt="<?php echo get_the_title($upsell_product_id) ?>" width="100" height="90" /></a>
                       </div>
                       <div class="upsell-product__title-price">
                         <div title="<?php echo get_the_title($upsell_product_id) ?>" class="upsell-product__title">
@@ -579,11 +577,7 @@
                             </div>
                           <?php endif; ?>
                           <div class="upsell-product__add">
-                            <button title="ADD" type="button" class="hs-upsell-add-to-cart btn hs-event-static" data-upsell-type="upsell_empty" data-upsell-index="0" 
-                            <?php if ($has_variants) { ?>
-                              data-variant-id="<?php echo $first_variation_id; ?>" 
-                            <?php } ?>
-                            data-product-id="<?php echo $upsell_product_id; ?>" data-cart-popup>
+                            <button title="ADD" type="button" class="hs-upsell-add-to-cart btn hs-event-static" data-upsell-type="upsell_empty" data-upsell-index="0" <?php if ($has_variants) { ?> data-variant-id="<?php echo $first_variation_id; ?>" <?php } ?> data-product-id="<?php echo $upsell_product_id; ?>" data-cart-popup>
                               <span class="hs-add--to--cart">ADD</span>
                               <span class="hs--loading">
                                 <div class="hs-spinner"></div>
@@ -640,13 +634,6 @@
   </a>
 </div>
 <!-- / Footer-->
-
-<!-- Theme JS -->
-<!-- Vendor JS -->
-<script src="<?php bloginfo('template_directory') ?>/assets/assets/js/vendor.js"></script>
-
-<!-- Theme JS -->
-<script src="<?php bloginfo('template_directory') ?>/assets/assets/js/theme.js"></script>
 
 <?php wp_footer(); ?>
 

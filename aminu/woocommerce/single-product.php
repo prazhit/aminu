@@ -36,7 +36,7 @@ if ($product->is_type('variable') && $variations = $product_var->get_available_v
 			<div data-section-type="main-product" data-components="accordion,custom-select,modal">
 				<div class="product-detail quickbuy-content container container__max">
 					<div class="columns">
-						<div class="column-12 column-md-6 gallery gallery--layout-carousel-beside gallery-size-medium product-column-left has-thumbnails" data-aos="fade-in" data-aos="fade-in" -delay="0.2s" data-variant-image-grouping="true" data-variant-image-grouping-option="Color,Colour,Couleur,Farbe" data-variant-image-grouping-option-index="">
+						<div class="column-12 column-md-6 gallery gallery--layout-carousel-beside gallery-size-medium product-column-left has-thumbnails" data-aos="fade-in" data-aos-delay="200" data-variant-image-grouping="true" data-variant-image-grouping-option="Color,Colour,Couleur,Farbe" data-variant-image-grouping-option-index>
 
 
 							<div class="gallery__inner sticky-content-container">
@@ -84,7 +84,7 @@ if ($product->is_type('variable') && $variations = $product_var->get_available_v
 											</div>
 										</div>
 									<?php else : ?>
-										<img class="rimage__image fade-in lazyautosizes lazyloaded" src="<?php echo wc_placeholder_img_src('full'); ?>" alt="">
+										<img class="rimage__image fade-in lazyautosizes lazyloaded" src="<?php echo wc_placeholder_img_src('full'); ?>" alt>
 									<?php endif; ?>
 
 									<?php if (!empty($gallery_image_ids)) : ?>
@@ -104,7 +104,7 @@ if ($product->is_type('variable') && $variations = $product_var->get_available_v
 												</div>
 											</div>
 										</div>
-										<div thumbsSlider="" class="product-thumbnail__swiper swiper tw-flex" data-swiper data-options='{
+										<div thumbsSlider class="product-thumbnail__swiper swiper tw-flex" data-swiper data-options='{
                         "slidesPerView": 7,
                         "loop": true,
                         "spaceBetween": 10,
@@ -134,7 +134,7 @@ if ($product->is_type('variable') && $variations = $product_var->get_available_v
 							</div>
 						</div>
 						<!-- COULUMN RIGHT  -->
-						<div class="column-12 column-md-6 detail product-column-right" data-aos="fade-in" data-aos="fade-in" -delay="0.2s">
+						<div class="column-12 column-md-6 detail product-column-right" data-aos="fade-in" data-aos-delay="200">
 							<!-- Product Sticky  -->
 							<div class="product-sticky-form">
 								<div class="container">
@@ -294,7 +294,7 @@ if ($product->is_type('variable') && $variations = $product_var->get_available_v
 								<div class="buy-buttons-row">
 
 
-									<form method="post" action="" id="product-form-template" accept-charset="UTF-8" class="form product-purchase-form" enctype="multipart/form-data" data-product-id="6839898734657">
+									<form method="post" action id="product-form-template" accept-charset="UTF-8" class="form product-purchase-form" enctype="multipart/form-data" data-product-id="6839898734657">
 										<input type="hidden" name="form_type" value="product" /><input type="hidden" name="utf8" value="✓" />
 										<?php if ($has_variants) : ?>
 											<div data-selected-variant="<?php echo $available_attributes[0]['variation_id'] ?>" class="attr-radio__group">
@@ -572,7 +572,7 @@ if ($product->is_type('variable') && $variations = $product_var->get_available_v
 				</div>
 				<div class="columns align-middle">
 					<div class="column-12 column-md-6">
-						<div class="card product-technology-card card--no-border">
+						<div class="card product-technology-card card--no-border" data-aos="fade-up" data-aos-delay="150">
 							<div class="card__inner">
 								<div class="card__image-wrapper">
 									<div class="card__image card__image--primary card__image--active">
@@ -594,7 +594,7 @@ if ($product->is_type('variable') && $variations = $product_var->get_available_v
 						</div>
 					</div>
 					<div class="column-12 column-md-6">
-						<div class="card product-technology-card card--no-border">
+						<div class="card product-technology-card card--no-border" data-aos="fade-up" data-aos-delay="300">
 							<div class="card__inner">
 								<div class="card__image-wrapper">
 									<div class="card__image card__image--primary card__image--active">
@@ -791,13 +791,13 @@ if ($product->is_type('variable') && $variations = $product_var->get_available_v
 			<!-- Product Feature  -->
 			<div class="container product-feature">
 				<div class="section-header al-text-center">
-					<h2 class="hometitle h4-style align-center cc-animate-init -in cc-animate-complete" data-aos="fade-in"="">
+					<h2 class="hometitle h4-style align-center cc-animate-init -in cc-animate-complete" data-aos="fade-in">
 						DELIVERING SAFE &amp; EFFECTIVE RESULTS
 					</h2>
 				</div>
 
 				<div class="icon-blurb__list icon-blurb--product-feature icon-blurb__list--columns-6">
-					<div id="feature-icon-blurb" class="icon-blurb al-text-center cc-fade-in-up cc-animate-init -in cc-animate-complete" data-aos="fade-in"="cc-fade-in-up" data-aos="fade-in" -delay="0.15s">
+					<div id="feature-icon-blurb" class="icon-blurb al-text-center cc-fade-in-up cc-animate-init -in cc-animate-complete" data-aos="fade-in" data-aos-delay="150">
 						<div class="al-inline-block lightly-spaced-row image-wrapper">
 							<img width="150px" height="150px" src="<?php bloginfo('template_directory') ?>/assets/assets/images/homepage/Vegan_150x.png" alt="Vegan" />
 						</div>
@@ -810,7 +810,7 @@ if ($product->is_type('variable') && $variations = $product_var->get_available_v
 							<p>This products contain no animal ingredients or animal byproduct including honey, beeswax, milk, or eggs.</p>
 						</div>
 					</div>
-					<div id="feature-icon-blurb" class="icon-blurb al-text-center cc-fade-in-up cc-animate-init -in cc-animate-complete" data-aos="fade-in"="cc-fade-in-up" data-aos="fade-in" -delay="0.15s">
+					<div id="feature-icon-blurb" class="icon-blurb al-text-center cc-fade-in-up cc-animate-init -in cc-animate-complete" data-aos="fade-in" data-aos-delay="300">
 						<div class="al-inline-block lightly-spaced-row image-wrapper">
 							<img width="150px" height="150px" src="<?php bloginfo('template_directory') ?>/assets/assets/images/homepage/Dermatologically_tested_150x.png" alt="Dermatologically tested" />
 						</div>
@@ -823,7 +823,7 @@ if ($product->is_type('variable') && $variations = $product_var->get_available_v
 							<p>This product is tested for its safety and is proven non-irritant, as per Methods of test for safety evaluation of cosmetics - 3rd Revision.</p>
 						</div>
 					</div>
-					<div id="feature-icon-blurb" class="icon-blurb al-text-center cc-fade-in-up cc-animate-init -in cc-animate-complete" data-aos="fade-in"="cc-fade-in-up" data-aos="fade-in" -delay="0.15s">
+					<div id="feature-icon-blurb" class="icon-blurb al-text-center cc-fade-in-up cc-animate-init -in cc-animate-complete" data-aos="fade-in" data-aos-delay="450">
 						<div class="al-inline-block lightly-spaced-row image-wrapper">
 							<img width="150px" height="150px" src="<?php bloginfo('template_directory') ?>/assets/assets/images/homepage/Australian_certified_150x.png" alt="Made Safe Certified" />
 						</div>
@@ -836,7 +836,7 @@ if ($product->is_type('variable') && $variations = $product_var->get_available_v
 							<p>The Australian Made Safe® Certified logo represents safer, cleaner practices than any government standard.</p>
 						</div>
 					</div>
-					<div id="feature-icon-blurb" class="icon-blurb al-text-center cc-fade-in-up cc-animate-init -in cc-animate-complete" data-aos="fade-in"="cc-fade-in-up" data-aos="fade-in" -delay="0.15s">
+					<div id="feature-icon-blurb" class="icon-blurb al-text-center cc-fade-in-up cc-animate-init -in cc-animate-complete" data-aos="fade-in" data-aos-delay="600">
 						<div class="al-inline-block lightly-spaced-row image-wrapper">
 							<img width="150px" height="150px" src="<?php bloginfo('template_directory') ?>/assets/assets/images/homepage/animal_test_free_150x.png" alt="Animal Test Free" />
 						</div>
@@ -849,7 +849,7 @@ if ($product->is_type('variable') && $variations = $product_var->get_available_v
 							<p>We do not conduct, commission or allow any tests on animals for our products anywhere in the world.</p>
 						</div>
 					</div>
-					<div id="feature-icon-blurb" class="icon-blurb al-text-center cc-fade-in-up cc-animate-init -in cc-animate-complete" data-aos="fade-in"="cc-fade-in-up" data-aos="fade-in" -delay="0.15s">
+					<div id="feature-icon-blurb" class="icon-blurb al-text-center cc-fade-in-up cc-animate-init -in cc-animate-complete" data-aos="fade-in" data-aos-delay="750">
 						<div class="al-inline-block lightly-spaced-row image-wrapper">
 							<img width="150px" height="150px" src="<?php bloginfo('template_directory') ?>/assets/assets/images/homepage/zero_plastic_inside_150x.png" alt="Zero plastic inside" />
 						</div>
@@ -862,7 +862,7 @@ if ($product->is_type('variable') && $variations = $product_var->get_available_v
 							<p>We are a signatory to Zero Plastic Inside, by Plastic Soup Foundation. None of our products contain micro plastics or beads.</p>
 						</div>
 					</div>
-					<div id="feature-icon-blurb" class="icon-blurb al-text-center cc-fade-in-up cc-animate-init -in cc-animate-complete" data-aos="fade-in"="cc-fade-in-up" data-aos="fade-in" -delay="0.15s">
+					<div id="feature-icon-blurb" class="icon-blurb al-text-center cc-fade-in-up cc-animate-init -in cc-animate-complete" data-aos="fade-in" data-aos-delay="900">
 						<div class="al-inline-block lightly-spaced-row image-wrapper">
 							<img width="150px" height="150px" src="<?php bloginfo('template_directory') ?>/assets/assets/images/homepage/medicert_150x.png" alt="Medicert Awarded" />
 						</div>

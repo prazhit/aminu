@@ -76,8 +76,8 @@ get_header();
     <!-- /Header  -->
     <!-- Content  -->
     <div class="b container">
-        <div class="columns filter-container filter-container--side filter-container--mobile-initialised filter-container--show-filters-desktop">
-            <div class="columns-12 column-md-3 product-filter ">
+        <div class="filter-container filter-container--side filter-container--mobile-initialised filter-container--show-filters-desktop active">
+            <div class="product-filter">
                 <div class="filters">
                     <div class="filters__inner sticky-content-container">
                         <div class="filters__heading">
@@ -317,7 +317,7 @@ get_header();
 
             if (have_posts()) :
             ?>
-                <div class="column-12 column-md-9">
+                <div class="product-grid">
                     <div class="al-grid al-grid-cols-1 md:al-grid-cols-3 al-gap-8 product-list product-list--per-row-3 product-list--image-shape-shortest product-list--per-row-mob-2">
 
                         <?php while (have_posts()) : the_post();
@@ -333,20 +333,18 @@ get_header();
                                 $available_attributes = $product_var->get_available_variations();
                                 $first_variation_price = $available_attributes[0]['display_price'];
                             }
-                            
+
                         ?>
 
                             <div class="product-list__item">
-                                <div class="card product-card">
+                                <div class="card product-card" data-aos="fade-in" data-aos-delay="150">
                                     <div class="card__inner">
                                         <a style="display:block" href="<?php the_permalink(); ?>" class="card__image-wrapper">
 
                                             <div class="card__image card__image--primary card__image--active">
                                                 <div class="rimage-outer-wrapper">
                                                     <div class="rimage-wrapper">
-                                                        <img class="rimage__image fade-in cover lazyautosizes lazyloaded" alt="<?php the_title() ?> - AMINU" loading="lazy" 
-                                                        src="<?php echo has_post_thumbnail() ? the_post_thumbnail_url('medium') : wc_placeholder_img_src('full') ?>" 
-                                                        />
+                                                        <img class="rimage__image fade-in cover lazyautosizes lazyloaded" alt="<?php the_title() ?> - AMINU" loading="lazy" src="<?php echo has_post_thumbnail() ? the_post_thumbnail_url('medium') : wc_placeholder_img_src('full') ?>" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -354,9 +352,7 @@ get_header();
                                                 <?php $gallery_image_ids = $product->get_gallery_image_ids(); ?>
                                                 <div class="rimage-outer-wrapper">
                                                     <div class="rimage-wrapper">
-                                                        <img class="rimage__image fade-in lazyautosizes lazyloaded" alt="<?php the_title() ?> - AMINU" loading="lazy" 
-                                                        src="<?php echo $gallery_image_ids ? wp_get_attachment_image_url($gallery_image_ids[0], 'medium') : wc_placeholder_img_src('full'); ?>" 
-                                                        />
+                                                        <img class="rimage__image fade-in lazyautosizes lazyloaded" alt="<?php the_title() ?> - AMINU" loading="lazy" src="<?php echo $gallery_image_ids ? wp_get_attachment_image_url($gallery_image_ids[0], 'medium') : wc_placeholder_img_src('full'); ?>" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -372,7 +368,7 @@ get_header();
                                                         <?php if (has_excerpt()) {
                                                             echo get_the_excerpt();
                                                         } else {
-                                                            echo wp_trim_words(get_the_content(),'10','...');
+                                                            echo wp_trim_words(get_the_content(), '10', '...');
                                                         } ?>
                                                     </div>
                                                     <div class="price-with-review">
@@ -387,7 +383,7 @@ get_header();
                                                         </div>
                                                         <?php if ($has_variants) : ?>
                                                             <div class="option-size">
-                                                                <?php $i=1;
+                                                                <?php $i = 1;
                                                                 foreach ($available_attributes as $variation_value) {
                                                                     foreach ($variation_value['attributes'] as $key => $attribute_value) :
 
@@ -398,14 +394,16 @@ get_header();
 
 
                                                                 <?php
-                                                                    $i++; if ($i > 4) break 2; };
+                                                                            $i++;
+                                                                            if ($i > 4) break 2;
+                                                                        };
                                                                     endforeach;
                                                                 } ?>
 
 
                                                             </div>
                                                         <?php endif; ?>
-                                                     
+
                                                     </div>
 
                                                     <?php $star_rating = $product->get_average_rating(); ?>
@@ -416,14 +414,13 @@ get_header();
                                                             </span>
                                                             <span class="product-rating-badge__text">
                                                                 <?php if ($star_rating) {
-
                                                                 } else {
                                                                     echo "No review yet";
-                                                                } ?>    
+                                                                } ?>
                                                             </span>
                                                         </div>
                                                     </div>
-                                                    
+
                                                 </a>
                                                 <div class="card__btn">
                                                     <a href="<?php the_permalink(); ?>" class="button button--large" tabindex="0">
