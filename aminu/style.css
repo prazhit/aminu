@@ -176,3 +176,7 @@ button[disabled] {
 .al-video-player {
   position: relative;
 }
+
+.layout-switchers {
+    text-align: right;
+}
