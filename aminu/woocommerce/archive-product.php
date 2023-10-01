@@ -1,4 +1,4 @@
-<?php
+ <?php
 get_header();
 ?>
 
@@ -42,7 +42,7 @@ get_header();
                                     Sort by
                                 </div>
                                 <button class="select-dropdown__button button--select" aria-expanded="false" aria-controls="sort-dropdown-options" aria-describedby="sort-dropdown-heading">
-                                    <span class="select-dropdown__button-text">Alphabetically, A-Z
+                                    <span class="select-dropdown__button-text">Best Selling
                                     </span>
                                     <span class="select-dropdown__button-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down">
                                             <title>Down</title>
