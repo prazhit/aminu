@@ -498,7 +498,7 @@
                 </ul>
                 <div class="tabs-content" id="tabs-content">
                     <div id="tab1" class="tab-content">
-                        <div class="swiper product-slider container" data-swiper data-options='{
+                        <div class="swiper product-slider" data-swiper data-options='{
               "spaceBetween": 30,
               "loop": true,
               "autoplay": {
@@ -783,7 +783,7 @@
                         </div>
                     </div>
                     <div id="tab2" class="tab-content" style="display: block">
-                        <div class="swiper product-slider container" data-swiper data-options='{
+                        <div class="swiper product-slider" data-swiper data-options='{
               "spaceBetween": 30,
               "loop": true,
               "autoplay": {
@@ -1068,7 +1068,7 @@
                         </div>
                     </div>
                     <div id="tab3" class="tab-content">
-                        <div class="swiper product-slider container" data-swiper data-options='{
+                        <div class="swiper product-slider" data-swiper data-options='{
               "spaceBetween": 30,
               "loop": true,
               "autoplay": {
@@ -1353,7 +1353,7 @@
                         </div>
                     </div>
                     <div id="tab4" class="tab-content">
-                        <div class="swiper product-slider container" data-swiper data-options='{
+                        <div class="swiper product-slider" data-swiper data-options='{
               "spaceBetween": 30,
               "loop": true,
               "autoplay": {

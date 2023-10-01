@@ -427,6 +427,7 @@ ul:not([class]) {
   font-size: var(--fs-450);
   margin-bottom: 2.5rem;
 }
+
 .section-header .subheading--uppercase {
   font-size: 1.25rem;
   font-size: var(--fs-450);
@@ -4421,17 +4422,32 @@ swiper-container {
 /*# sourceMappingURL=theme.css.map*/
 
 .accordion-item__title {
-	padding-right: 0;
+  padding-right: 0;
 }
 
 .filters__inner .filter-group__heading .filter-group__heading__indicator svg {
-		transition: all 300ms ease;
-	
+  transition: all 300ms ease;
 }
 
-.filters__inner .filter-group__heading[aria-expanded=true] .filter-group__heading__indicator svg {
-	transform: rotate(180deg);
+.filters__inner
+  .filter-group__heading[aria-expanded="true"]
+  .filter-group__heading__indicator
+  svg {
+  transform: rotate(180deg);
 }
-.filters__inner .filter-group__heading[aria-expanded=false] .filter-group__heading__indicator svg {
-	transform: rotate(0);
+.filters__inner
+  .filter-group__heading[aria-expanded="false"]
+  .filter-group__heading__indicator
+  svg {
+  transform: rotate(0);
+}
+
+@media (max-width: 768px) {
+  .section-header .subheading {
+    margin-bottom: 1rem;
+  }
+
+  .tabs .tabs-nav__list {
+    margin-bottom: 1rem;
+  }
 }
