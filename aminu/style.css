@@ -258,4 +258,12 @@ button[disabled] {
   .card__info {
     margin-bottom: 0.5rem;
   }
+
+  .header-main__right__inner {
+    gap: 0.5rem;
+  }
+
+  .header-logo__image {
+    width: 120px;
+  }
 }
