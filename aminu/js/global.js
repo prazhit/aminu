@@ -517,6 +517,35 @@
         });
       });
     }
+
+    const layoutSwitchers = document.querySelectorAll(".layout-switch");
+    if (layoutSwitchers) {
+      layoutSwitchers.forEach((button) => {
+        button.addEventListener("click", (event) => {
+          event.preventDefault();
+          const layout = button.classList.contains("layout-switch--two-columns")
+            ? "al-grid-cols-2"
+            : "al-grid-cols-1";
+          switchLayout(layout);
+        });
+      });
+    }
+
+    function switchLayout(layout) {
+      const grid = document.querySelector(".product-grid > .product-list");
+
+      grid.classList.remove("al-grid-cols-1", "al-grid-cols-2");
+
+      grid.classList.add(layout);
+
+      const layoutSwitchers = document.querySelectorAll(".layout-switch");
+      layoutSwitchers.forEach((button) => {
+        button.classList.remove("layout-switch--active");
+      });
+
+      const activeButton = document.querySelector(`.layout-switch--${layout}`);
+      activeButton.classList.add("layout-switch--active");
+    }
   });
 
   AOS.init({
