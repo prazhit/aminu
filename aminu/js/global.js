@@ -546,6 +546,67 @@
       const activeButton = document.querySelector(`.layout-switch--${layout}`);
       activeButton.classList.add("layout-switch--active");
     }
+
+    /**
+     * Letter Filter
+     */
+    const filterLetters = document.querySelectorAll(".letter-search .tablink");
+    const filteredWordList = document.querySelector(
+      ".letter-search__letter-content"
+    );
+    const filterListItems = document.querySelectorAll(".tablinks2");
+
+    if (filterLetters) {
+      filterLetters.forEach((filter) => {
+        filter.addEventListener("click", function (e) {
+          // Remove active class from other buttons
+          filterLetters.forEach((button) => {
+            button.classList.remove("active");
+          });
+          e.target.classList.add("active");
+          const filterValue = filter.getAttribute("data-char").toUpperCase();
+
+          filterList(filterValue);
+        });
+      });
+    }
+
+    if (filterListItems) {
+      filterListItems.forEach((listItem, index) => {
+        listItem.addEventListener("click", function (event) {
+          const itemIndex = index + 1;
+          const contentId = "cstm-" + itemIndex;
+          filterItemContent(event, contentId);
+        });
+      });
+    }
+
+    function filterList(filterValue) {
+      const items = filteredWordList.querySelectorAll(
+        ".tabcontent.ourIngredientTab"
+      );
+      items.forEach((item) => {
+        const text = item.getAttribute("id").toUpperCase();
+        if (text.startsWith(filterValue)) {
+          item.style.display = "block";
+        } else {
+          item.style.display = "none";
+        }
+      });
+    }
+
+    function filterItemContent(event, target) {
+      event.preventDefault();
+      const filterContentLists = document.querySelectorAll(".tabcontent2");
+      filterContentLists.forEach((contentItem) => {
+        const contentDivId = contentItem.getAttribute("id");
+        if (contentDivId === target) {
+          contentItem.style.display = "block";
+        } else {
+          contentItem.style.display = "none";
+        }
+      });
+    }
   });
 
   AOS.init({
