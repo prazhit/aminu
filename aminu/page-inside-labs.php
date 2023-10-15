@@ -23,7 +23,7 @@
         <div class="column-12">
           <div class="inside-labs-backed-img">
             <div class="rimage-wrapper cc-fade-in-up cc-animate-init -in cc-animate-complete" data-aos="fade-in" data-aos-delay="100">
-              <img class="rimage__image" src="//www.aminu.life/cdn/shop/files/inside-lab_1024x1024.jpg?v=1658380146" alt="" />
+              <img class="rimage__image" src="<?php echo get_template_directory_uri() . '/assets/assets/images/inside-lab.webp' ?>" alt="" />
             </div>
           </div>
         </div>
