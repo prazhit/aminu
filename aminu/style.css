@@ -298,3 +298,18 @@ button[disabled] {
     margin-bottom: 1rem;
   }
 }
+
+.ingredients-infograph .swiper-button.swiper-button-prev,
+.swiper-nav.swiper-button-prev {
+  left: 0;
+}
+
+.ingredients-infograph .swiper-button.swiper-button-next,
+.swiper-nav.swiper-button-next {
+  right: 0;
+}
+
+.ingredients-infograph .ingredient:first-child {
+  border-left: var(--border);
+  border-color: var(--clr-primary-400);
+}

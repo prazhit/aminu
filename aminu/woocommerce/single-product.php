@@ -572,7 +572,7 @@ if ($product->is_type('variable') && $variations = $product_var->get_available_v
 				</div>
 				<div class="columns align-middle">
 					<div class="column-12 column-md-6">
-						<div class="card product-technology-card card--no-border" data-aos="fade-up" data-aos-delay="150">
+						<div class="card product-technology-card card--no-border" data-aos="fade-in-up" data-aos-delay="150">
 							<div class="card__inner">
 								<div class="card__image-wrapper">
 									<div class="card__image card__image--primary card__image--active">
@@ -594,7 +594,7 @@ if ($product->is_type('variable') && $variations = $product_var->get_available_v
 						</div>
 					</div>
 					<div class="column-12 column-md-6">
-						<div class="card product-technology-card card--no-border" data-aos="fade-up" data-aos-delay="300">
+						<div class="card product-technology-card card--no-border" data-aos="fade-in-up" data-aos-delay="300">
 							<div class="card__inner">
 								<div class="card__image-wrapper">
 									<div class="card__image card__image--primary card__image--active">

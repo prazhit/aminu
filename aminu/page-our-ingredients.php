@@ -85,9 +85,8 @@
           </div>
         </div>
       </div>
-      <div class="ingredients al-py-6 ingredients-infograph--mobile mobile-only">
-        <div class="container">
-          <div class="swiper" data-swiper data-options='{
+      <div class="ingredients al-py-6 ingredients-infograph--mobile">
+        <div class="swiper" data-swiper data-options='{
                 "slidesPerView": 1,
                 "spaceBetween": 32,
                 "loop": true,
@@ -101,52 +100,51 @@
                 },  
                 "breakpoints": {
                   "767": {
-                    "slidesPerView": 3
+                    "slidesPerView": 2
                   }
                 }
               }'>
-            <div class="swiper-wrapper">
-              <div class="ingredient swiper-slide">
-                <div class="ingredient__inner">
-                  <div class="ingredient__text">
-                    <div class="ingredient__data">80+</div>
-                    <h4 class="ingredient__title">HIGH PERFORMANCE INGREDIENTS</h4>
-                    <div class="ingredient__content">
-                      <p>We focus on multi-targeted solutions for your skin. Hence our products are filled with a unique blend of active nutrients. Experience the care, peptides, vitamins, botanical extracts, energizing minerals, amino-acids and many more powered with advanced technologies.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="ingredient swiper-slide">
-                <div class="ingredient__inner">
-                  <div class="ingredient__text">
-                    <div class="ingredient__data">40+</div>
-                    <h4 class="ingredient__title">COUNTRIES</h4>
-                    <div class="ingredient__content">
-                      <p>We scout the world to source high quality ingredients, precious plant extracts, magical oils and unique molecules. Efficacy, safety and sustainability are our criteria of selection, ensuring that each formula improves the way your skin looks and feels good.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="ingredient swiper-slide">
-                <div class="ingredient__inner">
-                  <div class="ingredient__text">
-                    <div class="ingredient__data">200+</div>
-                    <h4 class="ingredient__title">RAW INGREDIENTS</h4>
-                    <div class="ingredient__content">
-                      <p>Unique base ingredients with long lasting hydrating effect, nourishing seed oils, energizing essential oils, floral waters, et.al. We’re always innovating and upgrading with revolutionary ingredients, understanding the skin science to make suitable products and provide a feeling of wellbeing.</p>
-                    </div>
+          <div class="swiper-wrapper">
+            <div class="ingredient swiper-slide">
+              <div class="ingredient__inner">
+                <div class="ingredient__text">
+                  <div class="ingredient__data">80+</div>
+                  <h4 class="ingredient__title">HIGH PERFORMANCE INGREDIENTS</h4>
+                  <div class="ingredient__content">
+                    <p>We focus on multi-targeted solutions for your skin. Hence our products are filled with a unique blend of active nutrients. Experience the care, peptides, vitamins, botanical extracts, energizing minerals, amino-acids and many more powered with advanced technologies.</p>
                   </div>
                 </div>
               </div>
             </div>
-            <!-- Add Arrows -->
-            <div class="swiper-nav swiper-button-prev top-50 start-0 z-index-30 cursor-pointer transition-all bg-white px-3 py-4 position-absolute z-index-30 top-50 start-0 mt-n8 d-flex justify-content-center align-items-center opacity-50-hover">
-              <i class="ri-arrow-left-s-line ri-lg"></i>
+            <div class="ingredient swiper-slide">
+              <div class="ingredient__inner">
+                <div class="ingredient__text">
+                  <div class="ingredient__data">40+</div>
+                  <h4 class="ingredient__title">COUNTRIES</h4>
+                  <div class="ingredient__content">
+                    <p>We scout the world to source high quality ingredients, precious plant extracts, magical oils and unique molecules. Efficacy, safety and sustainability are our criteria of selection, ensuring that each formula improves the way your skin looks and feels good.</p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="swiper-nav swiper-button-next top-50 end-0 z-index-30 cursor-pointer transition-all bg-white px-3 py-4 position-absolute z-index-30 top-50 end-0 mt-n8 d-flex justify-content-center align-items-center opacity-50-hover">
-              <i class="ri-arrow-right-s-line ri-lg"></i>
+            <div class="ingredient swiper-slide">
+              <div class="ingredient__inner">
+                <div class="ingredient__text">
+                  <div class="ingredient__data">200+</div>
+                  <h4 class="ingredient__title">RAW INGREDIENTS</h4>
+                  <div class="ingredient__content">
+                    <p>Unique base ingredients with long lasting hydrating effect, nourishing seed oils, energizing essential oils, floral waters, et.al. We’re always innovating and upgrading with revolutionary ingredients, understanding the skin science to make suitable products and provide a feeling of wellbeing.</p>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+          <!-- Add Arrows -->
+          <div class="swiper-nav swiper-button-prev top-50 start-0 z-index-30 cursor-pointer transition-all bg-white px-3 py-4 position-absolute z-index-30 top-50 start-0 mt-n8 d-flex justify-content-center align-items-center opacity-50-hover">
+            <i class="ri-arrow-left-s-line ri-lg"></i>
+          </div>
+          <div class="swiper-nav swiper-button-next top-50 end-0 z-index-30 cursor-pointer transition-all bg-white px-3 py-4 position-absolute z-index-30 top-50 end-0 mt-n8 d-flex justify-content-center align-items-center opacity-50-hover">
+            <i class="ri-arrow-right-s-line ri-lg"></i>
           </div>
         </div>
       </div>
@@ -204,7 +202,7 @@
             </div>
           </div>
         </div>
-        <div class="ingredients ingredients--mobile mobile-only">
+        <div class="ingredients ingredients--mobile">
           <div class="swiper ingredients__blocks" data-swiper data-options='{
                     "slidesPerView": 1,
                     "spaceBetween": 32,
@@ -219,7 +217,7 @@
                     },  
                     "breakpoints": {
                       "767": {
-                        "slidesPerView": 3
+                        "slidesPerView": 1
                       }
                     }
                   }'>
