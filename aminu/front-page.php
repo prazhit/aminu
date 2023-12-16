@@ -42,7 +42,7 @@
                     <div class="swiper-wrapper">
                         <!-- Your HTML code for each slide here -->
                         <div class="swiper-slide">
-                            <div id="card-routine" class="al-relative al-flex-col content-card" data-aos="fade-up" data-aos-delay="150">
+                            <div id="card-routine" class="al-relative al-flex-col content-card" data-aos="fade-in-up" data-aos-delay="150">
                                 <div class="content-card--border">
                                     <div class="content-card__image">
                                         <a href="<?php echo site_url('/shop') ?>">
@@ -63,7 +63,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div id="card-routine" class="al-relative al-flex-col content-card" data-aos="fade-up" data-aos-delay="300">
+                            <div id="card-routine" class="al-relative al-flex-col content-card" data-aos="fade-in-up" data-aos-delay="300">
                                 <div class="content-card--border">
                                     <div class="content-card__image">
                                         <a href="<?php echo site_url('/shop') ?>">
@@ -84,7 +84,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div id="card-routine" class="al-relative al-flex-col content-card" data-aos="fade-up" data-aos-delay="450">
+                            <div id="card-routine" class="al-relative al-flex-col content-card" data-aos="fade-in-up" data-aos-delay="450">
                                 <div class="content-card--border">
                                     <div class="content-card__image">
                                         <a href="<?php echo site_url('/shop') ?>">
@@ -524,7 +524,7 @@
                             <div class="swiper-wrapper">
 
                                 <div class="swiper-slide">
-                                    <div class="card product-card" data-aos="fade-up" data-aos-delay="150">
+                                    <div class="card product-card" data-aos="fade-in-up" data-aos-delay="150">
                                         <div class="card__inner">
                                             <div class="card__image-wrapper">
                                                 <a class="link" href="/products/copper-peptide-serum" aria-label="Copper Peptide Serum" tabindex="0">
@@ -586,7 +586,7 @@
                                 </div>
 
                                 <div class="swiper-slide">
-                                    <div class="card product-card" data-aos="fade-up" data-aos-delay="300">
+                                    <div class="card product-card" data-aos="fade-in-up" data-aos-delay="300">
                                         <div class="card__inner">
                                             <div class="card__image-wrapper">
                                                 <a class="link" href="/products/copper-peptide-serum" aria-label="Copper Peptide Serum" tabindex="0">
@@ -648,7 +648,7 @@
                                 </div>
 
                                 <div class="swiper-slide">
-                                    <div class="card product-card" data-aos="fade-up" data-aos-delay="450">
+                                    <div class="card product-card" data-aos="fade-in-up" data-aos-delay="450">
                                         <div class="card__inner">
                                             <div class="card__image-wrapper">
                                                 <a class="link" href="/products/copper-peptide-serum" aria-label="Copper Peptide Serum" tabindex="0">
@@ -710,7 +710,7 @@
                                 </div>
 
                                 <div class="swiper-slide">
-                                    <div class="card product-card" data-aos="fade-up" data-aos-delay="600">
+                                    <div class="card product-card" data-aos="fade-in-up" data-aos-delay="600">
                                         <div class="card__inner">
                                             <div class="card__image-wrapper">
                                                 <a class="link" href="/products/copper-peptide-serum" aria-label="Copper Peptide Serum" tabindex="0">
@@ -809,7 +809,7 @@
                             <div class="swiper-wrapper">
 
                                 <div class="swiper-slide">
-                                    <div class="card product-card" data-aos="fade-up" data-aos-delay="150">
+                                    <div class="card product-card" data-aos="fade-in-up" data-aos-delay="150">
                                         <div class="card__inner">
                                             <div class="card__image-wrapper">
                                                 <a class="link" href="/products/copper-peptide-serum" aria-label="Copper Peptide Serum" tabindex="0">
@@ -871,7 +871,7 @@
                                 </div>
 
                                 <div class="swiper-slide">
-                                    <div class="card product-card" data-aos="fade-up" data-aos-delay="300">
+                                    <div class="card product-card" data-aos="fade-in-up" data-aos-delay="300">
                                         <div class="card__inner">
                                             <div class="card__image-wrapper">
                                                 <a class="link" href="/products/copper-peptide-serum" aria-label="Copper Peptide Serum" tabindex="0">
@@ -933,7 +933,7 @@
                                 </div>
 
                                 <div class="swiper-slide">
-                                    <div class="card product-card" data-aos="fade-up" data-aos-delay="450">
+                                    <div class="card product-card" data-aos="fade-in-up" data-aos-delay="450">
                                         <div class="card__inner">
                                             <div class="card__image-wrapper">
                                                 <a class="link" href="/products/copper-peptide-serum" aria-label="Copper Peptide Serum" tabindex="0">
@@ -995,7 +995,7 @@
                                 </div>
 
                                 <div class="swiper-slide">
-                                    <div class="card product-card" data-aos="fade-up" data-aos-delay="600">
+                                    <div class="card product-card" data-aos="fade-in-up" data-aos-delay="600">
                                         <div class="card__inner">
                                             <div class="card__image-wrapper">
                                                 <a class="link" href="/products/copper-peptide-serum" aria-label="Copper Peptide Serum" tabindex="0">
@@ -1094,7 +1094,7 @@
                             <div class="swiper-wrapper">
 
                                 <div class="swiper-slide">
-                                    <div class="card product-card" data-aos="fade-up" data-aos-delay="150">
+                                    <div class="card product-card" data-aos="fade-in-up" data-aos-delay="150">
                                         <div class="card__inner">
                                             <div class="card__image-wrapper">
                                                 <a class="link" href="/products/copper-peptide-serum" aria-label="Copper Peptide Serum" tabindex="0">
@@ -1156,7 +1156,7 @@
                                 </div>
 
                                 <div class="swiper-slide">
-                                    <div class="card product-card" data-aos="fade-up" data-aos-delay="300">
+                                    <div class="card product-card" data-aos="fade-in-up" data-aos-delay="300">
                                         <div class="card__inner">
                                             <div class="card__image-wrapper">
                                                 <a class="link" href="/products/copper-peptide-serum" aria-label="Copper Peptide Serum" tabindex="0">
@@ -1218,7 +1218,7 @@
                                 </div>
 
                                 <div class="swiper-slide">
-                                    <div class="card product-card" data-aos="fade-up" data-aos-delay="450">
+                                    <div class="card product-card" data-aos="fade-in-up" data-aos-delay="450">
                                         <div class="card__inner">
                                             <div class="card__image-wrapper">
                                                 <a class="link" href="/products/copper-peptide-serum" aria-label="Copper Peptide Serum" tabindex="0">
@@ -1280,7 +1280,7 @@
                                 </div>
 
                                 <div class="swiper-slide">
-                                    <div class="card product-card" data-aos="fade-up" data-aos-delay="600">
+                                    <div class="card product-card" data-aos="fade-in-up" data-aos-delay="600">
                                         <div class="card__inner">
                                             <div class="card__image-wrapper">
                                                 <a class="link" href="/products/copper-peptide-serum" aria-label="Copper Peptide Serum" tabindex="0">
@@ -1379,7 +1379,7 @@
                             <div class="swiper-wrapper">
 
                                 <div class="swiper-slide">
-                                    <div class="card product-card" data-aos="fade-up" data-aos-delay="150">
+                                    <div class="card product-card" data-aos="fade-in-up" data-aos-delay="150">
                                         <div class="card__inner">
                                             <div class="card__image-wrapper">
                                                 <a class="link" href="/products/copper-peptide-serum" aria-label="Copper Peptide Serum" tabindex="0">
@@ -1441,7 +1441,7 @@
                                 </div>
 
                                 <div class="swiper-slide">
-                                    <div class="card product-card" data-aos="fade-up" data-aos-delay="150">
+                                    <div class="card product-card" data-aos="fade-in-up" data-aos-delay="150">
                                         <div class="card__inner">
                                             <div class="card__image-wrapper">
                                                 <a class="link" href="/products/copper-peptide-serum" aria-label="Copper Peptide Serum" tabindex="0">
@@ -1503,7 +1503,7 @@
                                 </div>
 
                                 <div class="swiper-slide">
-                                    <div class="card product-card" data-aos="fade-up" data-aos-delay="150">
+                                    <div class="card product-card" data-aos="fade-in-up" data-aos-delay="150">
                                         <div class="card__inner">
                                             <div class="card__image-wrapper">
                                                 <a class="link" href="/products/copper-peptide-serum" aria-label="Copper Peptide Serum" tabindex="0">
@@ -1565,7 +1565,7 @@
                                 </div>
 
                                 <div class="swiper-slide">
-                                    <div class="card product-card" data-aos="fade-up" data-aos-delay="150">
+                                    <div class="card product-card" data-aos="fade-in-up" data-aos-delay="150">
                                         <div class="card__inner">
                                             <div class="card__image-wrapper">
                                                 <a class="link" href="/products/copper-peptide-serum" aria-label="Copper Peptide Serum" tabindex="0">
@@ -1659,7 +1659,7 @@
             <div class="logo-list__container">
                 <div class="logo-list logo-list--count-5 al-flex al-items-center al-overflow-y-auto md:al-grid al-grid-cols-3 md:al-grid-cols-5 al-max-w-5xl al-mx-auto">
                     <div class="logo-list__logo logo-list__logo-1 al-text-center">
-                        <a id="logo_1" class="logo-list__link" href="<?php echo site_url('/shop') ?>" data-aos="fade-up" data-aos-delay="150">
+                        <a id="logo_1" class="logo-list__link" href="<?php echo site_url('/shop') ?>" data-aos="fade-in-up" data-aos-delay="150">
                             <div class="logo-list__logo-image active">
                                 <div class="image-outer-wrapper">
                                     <div class="image-wrapper al-inline-block al-align-middle">
@@ -1671,7 +1671,7 @@
                         </a>
                     </div>
                     <div class="logo-list__logo logo-list__logo-1 al-text-center">
-                        <a id="logo_1" class="logo-list__link" href="<?php echo site_url('/shop') ?>" data-aos="fade-up" data-aos-delay="300">
+                        <a id="logo_1" class="logo-list__link" href="<?php echo site_url('/shop') ?>" data-aos="fade-in-up" data-aos-delay="300">
                             <div class="logo-list__logo-image ">
                                 <div class="image-outer-wrapper">
                                     <div class="image-wrapper al-inline-block al-align-middle">
@@ -1683,7 +1683,7 @@
                         </a>
                     </div>
                     <div class="logo-list__logo logo-list__logo-1 al-text-center">
-                        <a id="logo_1" class="logo-list__link" href="<?php echo site_url('/shop') ?>" data-aos="fade-up" data-aos-delay="450">
+                        <a id="logo_1" class="logo-list__link" href="<?php echo site_url('/shop') ?>" data-aos="fade-in-up" data-aos-delay="450">
                             <div class="logo-list__logo-image ">
                                 <div class="image-outer-wrapper">
                                     <div class="image-wrapper al-inline-block al-align-middle">
@@ -1695,7 +1695,7 @@
                         </a>
                     </div>
                     <div class="logo-list__logo logo-list__logo-1 al-text-center">
-                        <a id="logo_1" class="logo-list__link" href="<?php echo site_url('/shop') ?>" data-aos="fade-up" data-aos-delay="600">
+                        <a id="logo_1" class="logo-list__link" href="<?php echo site_url('/shop') ?>" data-aos="fade-in-up" data-aos-delay="600">
                             <div class="logo-list__logo-image ">
                                 <div class="image-outer-wrapper">
                                     <div class="image-wrapper al-inline-block al-align-middle">
@@ -1707,7 +1707,7 @@
                         </a>
                     </div>
                     <div class="logo-list__logo logo-list__logo-1 al-text-center">
-                        <a id="logo_1" class="logo-list__link" href="<?php echo site_url('/shop') ?>" data-aos="fade-up" data-aos-delay="750">
+                        <a id="logo_1" class="logo-list__link" href="<?php echo site_url('/shop') ?>" data-aos="fade-in-up" data-aos-delay="750">
                             <div class="logo-list__logo-image ">
                                 <div class="image-outer-wrapper">
                                     <div class="image-wrapper al-inline-block al-align-middle">
